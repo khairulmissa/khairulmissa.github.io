@@ -1131,3 +1131,7 @@ a:hover { color: var(--accent); }
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }
 }
+
+/* Fix: contact fits on phones */
+.contact-text { flex: 1 1 min(100%, 380px); }
+.contact-links { flex: 1 1 min(100%, 340px); min-width: 0; }
