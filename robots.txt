@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khairulmissa.github.io/sitemap.xml

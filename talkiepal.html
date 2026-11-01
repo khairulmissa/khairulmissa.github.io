@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TalkiePal Case Study | Khairulmissa Miswany</title>
+  <meta name="description" content="How I designed and built the child app, AI-generated practice and progress pages for TalkiePal, a pronunciation training app for children with speech and language disorders.">
+  <meta name="author" content="Khairulmissa Miswany">
+  <meta name="theme-color" content="#F5F5F2">
+  <link rel="canonical" href="https://khairulmissa.github.io/talkiepal.html">
+
+  <!-- Icons -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <!-- Link preview -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://khairulmissa.github.io/talkiepal.html">
+  <meta property="og:title" content="TalkiePal Case Study | Khairulmissa Miswany">
+  <meta property="og:description" content="Designing a calm, game-based speech practice app for children, with progress pages for kids and parents.">
+  <meta property="og:image" content="https://khairulmissa.github.io/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">KM</span>
+        Khairulmissa Miswany
+      </a>
+      <ul class="nav-links">
+        <li>
+          <a href="index.html#work" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            All projects
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Title -->
+    <section class="cs-intro">
+      <div class="container">
+        <p class="eyebrow">Case study · Final year project</p>
+        <h1 class="cs-title">TalkiePal</h1>
+        <p class="cs-lede">
+          Pronunciation practice for children with speech and language
+          disorders, made into games, with parents following their
+          child’s progress at home.
+        </p>
+
+        <dl class="cs-meta">
+          <div>
+            <dt>My role</dt>
+            <dd>UI/UX designer &amp; Flutter developer</dd>
+          </div>
+          <div>
+            <dt>I built</dt>
+            <dd>Child app, AI practice, progress pages</dd>
+          </div>
+          <div>
+            <dt>Team</dt>
+            <dd>2 people</dd>
+          </div>
+          <div>
+            <dt>Platform</dt>
+            <dd>Android · Flutter</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Hero screens -->
+    <section class="container">
+      <div class="cs-hero tint-talkiepal">
+        <div class="phone">
+          <img src="assets/images/talkiepal-roles.webp" alt="Role selection screen: I'm a Kid or I'm a Parent" width="486" height="950">
+        </div>
+        <div class="phone phone-offset">
+          <img src="assets/images/talkiepal-kid-home.webp" alt="Kid home screen with Dino mascot and level selection" width="486" height="950">
+        </div>
+        <div class="phone">
+          <img src="assets/images/talkiepal-games.webp" alt="Game Zone with Sound Matcher, Minimal Pairs, Yes or No and Feed the Dino" width="486" height="950">
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem / Solution -->
+    <section class="section">
+      <div class="container cs-two-col">
+        <div>
+          <h2 class="cs-h2">The problem</h2>
+          <p class="cs-text">
+            Children with speech delays need to practise every day, but therapy
+            sessions are short and far apart. Practice at home is repetitive, so
+            children lose interest, and parents can’t easily tell whether it’s
+            working or which sounds still need help.
+          </p>
+        </div>
+        <div>
+          <h2 class="cs-h2">The app</h2>
+          <p class="cs-text">
+            TalkiePal turns practice into short games guided by a friendly
+            dinosaur. Children say words out loud and get instant feedback from
+            the phone’s speech recognition, while an AI model creates fresh
+            practice words for every session. Parents see what to practise
+            next, and therapists can follow up through the app.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ownership -->
+    <section class="section">
+      <div class="container">
+        <h2 class="cs-h2">Who built what</h2>
+        <div class="ownership">
+          <div class="owner-card owner-me">
+            <p class="owner-label">My part</p>
+            <ul class="points">
+              <li><strong>UI/UX for the whole app:</strong> every screen, colour and component, plus Dino the mascot, so children, parents and therapists all get one consistent, child-safe experience</li>
+              <li><strong>The entire child app:</strong> 4 levels and 39 topics of speaking practice, with instant feedback from speech recognition</li>
+              <li><strong>AI-generated practice:</strong> Llama 3.2 running locally through Ollama creates fresh words for every session, so children practise new words instead of memorising the same list</li>
+              <li><strong>Six speech games built with Flame,</strong> from Minimal Pairs to Voice Rocket, turning repetitive drills into play children ask for</li>
+              <li><strong>Kids’ progress page:</strong> stars, streaks and badges that bring children back to practise every day</li>
+              <li><strong>Parent progress page:</strong> turns raw scores into clear next steps, with weak words, mixed-up sounds and a weekly speaking trend</li>
+            </ul>
+          </div>
+          <div class="owner-card">
+            <p class="owner-label">My teammate’s part</p>
+            <ul class="points">
+              <li><strong>Parent home page:</strong> a daily snapshot of each child’s practice, with an AI chat for quick questions</li>
+              <li><strong>Therapist dashboard:</strong> one place to manage patients, schedules and feedback</li>
+              <li><strong>Video consultations</strong> between parents and therapists, right inside the app</li>
+              <li><strong>PDF progress reports</strong> that therapists can share and keep on file</li>
+              <li><strong>Admin dashboard</strong> to manage users and therapists across the platform</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design decisions -->
+    <section class="section">
+      <div class="container">
+        <h2 class="cs-h2">Design decisions</h2>
+        <p class="cs-text cs-text-wide">
+          The users are young children, some of them autistic, so every screen
+          had to be calm, predictable and easy to tap.
+        </p>
+
+        <div class="decisions">
+          <article class="decision">
+            <h3>One friendly guide</h3>
+            <p>Dino, the mascot, appears across the app and talks to the child (“Pick a game and talk with me!”). A familiar character makes each new screen feel safe.</p>
+          </article>
+          <article class="decision">
+            <h3>Big, clear choices</h3>
+            <p>Large cards with one picture and one short label each, colour-coded levels, and a simple four-icon bottom bar. No small text links for children to miss.</p>
+          </article>
+          <article class="decision">
+            <h3>Soft, calm colours</h3>
+            <p>A warm cream background with soft pastel cards, so the screen never feels loud. Strong colour is kept for the one thing to tap next.</p>
+          </article>
+          <article class="decision">
+            <h3>Feedback that encourages</h3>
+            <p>Results show stars, never a fail screen. When a score is low, “Try again” becomes the main button. A light vibration tells the child when the mic is ready to listen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Child journey -->
+    <section class="section">
+      <div class="container">
+        <h2 class="cs-h2">The child’s journey</h2>
+        <p class="cs-text cs-text-wide">
+          From login to the first game in four taps. A parent logs in once and
+          then hands the phone to the child.
+        </p>
+
+        <ol class="journey">
+          <li>
+            <div class="phone"><img src="assets/images/talkiepal-login.webp" alt="Login screen" width="486" height="950" loading="lazy"></div>
+            <p><strong>1. Parent logs in</strong> with email, Google or Facebook.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="assets/images/talkiepal-roles.webp" alt="Who is using TalkiePal today: Kid or Parent" width="486" height="950" loading="lazy"></div>
+            <p><strong>2. Pick who’s using it.</strong> Kid and parent spaces are kept apart.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="assets/images/talkiepal-kid-home.webp" alt="Choose your level screen" width="486" height="950" loading="lazy"></div>
+            <p><strong>3. Choose a level.</strong> Each level has its own dino friend.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="assets/images/talkiepal-games.webp" alt="Game Zone screen" width="486" height="950" loading="lazy"></div>
+            <p><strong>4. Play.</strong> Listening and speaking games, each one tap away.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- What's inside -->
+    <section class="section">
+      <div class="container">
+        <h2 class="cs-h2">What children practise</h2>
+        <dl class="cs-numbers">
+          <div><dt>4</dt><dd>levels: Beginner, Pre Intermediate, Intermediate and Special Sound</dd></div>
+          <div><dt>39</dt><dd>topics across the levels, from alphabets and animals to daily routines</dd></div>
+          <div><dt>8</dt><dd>hard sounds with their own drills: CH, L, R, S, SH, TH, V and W</dd></div>
+          <div><dt>6</dt><dd>games: Sound Matcher, Minimal Pairs, Yes or No, Feed the Dino, Voice Rocket and Pop the Balloon</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Kids' progress -->
+    <section class="section">
+      <div class="container cs-feature">
+        <div class="cs-feature-media cs-feature-media-duo tint-talkiepal">
+          <div class="phone">
+            <img src="assets/images/talkiepal-kid-progress.webp" alt="My Progress screen: Dino says Great job, 22 stars, 2 day streak, 39 words said, and a progress bar for each level" width="486" height="950" loading="lazy">
+          </div>
+          <div class="phone phone-offset">
+            <img src="assets/images/talkiepal-kid-games-badges.webp" alt="My games with star ratings for six games, a This week chart and My badges" width="486" height="950" loading="lazy">
+          </div>
+        </div>
+        <div class="cs-feature-text">
+          <p class="eyebrow">Kid side · my page</p>
+          <h2 class="cs-h2">Progress a child can understand</h2>
+          <p class="cs-text">
+            Children don’t read percentages, so their progress page uses things
+            they already know from games: stars, streaks and badges.
+          </p>
+          <ul class="points">
+            <li><strong>Dino cheers them on</strong> with what they did this week, e.g. “aslam practised 2 days this week!”</li>
+            <li><strong>Three big numbers:</strong> stars earned, day streak and words said.</li>
+            <li><strong>One coloured bar per level,</strong> matching the A, B, C, D colours used everywhere else.</li>
+            <li><strong>Star ratings for every game,</strong> with “not yet” instead of a zero, so nothing feels like failing.</li>
+            <li><strong>Badges</strong> such as First Word, ABC Star and 5 Day Streak reward coming back each day.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parent progress -->
+    <section class="section">
+      <div class="container">
+        <div class="cs-parent">
+          <p class="eyebrow">Parent side · my page</p>
+          <h2 class="cs-h2">Progress that tells parents what to do next</h2>
+          <p class="cs-text">
+            A score on its own doesn’t help a parent at home. The parent
+            progress page turns every session into a short to-do list.
+          </p>
+          <ul class="cs-parent-list">
+            <li><strong>Needs attention</strong><span>Any topic or game below 70% is grouped at the top.</span></li>
+            <li><strong>Week by week</strong><span>A speaking score chart shows whether practice is working.</span></li>
+            <li><strong>Words to practise</strong><span>The lowest-scoring words from the last two weeks.</span></li>
+            <li><strong>Mixed-up sounds</strong><span>Taken from the child’s mistakes in Minimal Pairs.</span></li>
+            <li><strong>Every word, one tap away</strong><span>Open any session to see exactly what the child said.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learnings -->
+    <section class="section">
+      <div class="container">
+        <h2 class="cs-h2">What I learned</h2>
+        <ul class="learnings">
+          <li>Designing for children means removing things. Every extra button is a chance to get lost.</li>
+          <li>Running an AI model locally taught me to design around waiting, so the child always has something to look at while new words load.</li>
+          <li>Progress data is only useful when it leads to an action, so every weak spot on the parent page points to what to practise next.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Next -->
+    <section class="section">
+      <div class="container">
+        <a class="next-project" href="index.html#work">
+          <span>
+            <span class="next-label">Back to</span>
+            <span class="next-title">All projects</span>
+          </span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Khairulmissa Miswany</span>
+      <a href="https://github.com/khairulmissa/talkiepal" target="_blank" rel="noopener">Source on GitHub</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
